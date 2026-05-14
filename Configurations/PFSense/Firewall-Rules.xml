@@ -1,0 +1,811 @@
+
+<filter>
+	<rule>
+		<id></id>
+		<tracker>1778616470</tracker>
+		<type>pass</type>
+		<interface>wan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<protocol>tcp</protocol>
+		<source>
+			<address>172.16.80.0/25</address>
+		</source>
+		<destination>
+			<network>(self)</network>
+			<port>443</port>
+		</destination>
+		<descr><![CDATA[Allow WebGUI]]></descr>
+		<created>
+			<time>1778616470</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+		<updated>
+			<time>1778616517</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778616295</tracker>
+		<type>pass</type>
+		<interface>wan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<protocol>tcp/udp</protocol>
+		<source>
+			<address>172.16.0.0/16</address>
+		</source>
+		<destination>
+			<network>(self)</network>
+			<port>53-853</port>
+		</destination>
+		<descr><![CDATA[Internet Access to All LAN Connectivity]]></descr>
+		<created>
+			<time>1778616295</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+		<updated>
+			<time>1778617566</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+	</rule>
+	<rule>
+		<type>pass</type>
+		<ipprotocol>inet</ipprotocol>
+		<descr><![CDATA[Default allow LAN to any rule]]></descr>
+		<interface>lan</interface>
+		<tracker>0100000101</tracker>
+		<source>
+			<network>lan</network>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+		<disabled></disabled>
+	</rule>
+	<rule>
+		<type>pass</type>
+		<ipprotocol>inet6</ipprotocol>
+		<descr><![CDATA[Default allow LAN IPv6 to any rule]]></descr>
+		<interface>lan</interface>
+		<tracker>0100000102</tracker>
+		<source>
+			<network>lan</network>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+		<disabled></disabled>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778616795</tracker>
+		<type>pass</type>
+		<interface>opt1</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt1</network>
+		</source>
+		<destination>
+			<network>(self)</network>
+		</destination>
+		<descr><![CDATA[Full Access to Firewall]]></descr>
+		<updated>
+			<time>1778616795</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+		<created>
+			<time>1778616795</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778616817</tracker>
+		<type>pass</type>
+		<interface>opt1</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt1</network>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+		<descr><![CDATA[Full Access to All Sub Networks]]></descr>
+		<updated>
+			<time>1778616817</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+		<created>
+			<time>1778616817</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778616825</tracker>
+		<type>pass</type>
+		<interface>opt2</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt2</network>
+		</source>
+		<destination>
+			<network>(self)</network>
+		</destination>
+		<descr><![CDATA[Full Access to Firewall]]></descr>
+		<created>
+			<time>1778616795</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+		<updated>
+			<time>1778616848</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778616826</tracker>
+		<type>pass</type>
+		<interface>opt2</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt2</network>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+		<descr><![CDATA[Full Access to All Sub Networks]]></descr>
+		<created>
+			<time>1778616817</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+		<updated>
+			<time>1778616854</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778616996</tracker>
+		<type>block</type>
+		<interface>opt3</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt3</network>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+		<descr><![CDATA[Blocking Access to Any Restricted Networks]]></descr>
+		<updated>
+			<time>1778616996</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+		<created>
+			<time>1778616996</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778616902</tracker>
+		<type>pass</type>
+		<interface>opt3</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt3</network>
+		</source>
+		<destination>
+			<network>opt4</network>
+		</destination>
+		<descr><![CDATA[Access to Storage Network]]></descr>
+		<updated>
+			<time>1778616902</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+		<created>
+			<time>1778616902</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778616931</tracker>
+		<type>pass</type>
+		<interface>opt3</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt3</network>
+		</source>
+		<destination>
+			<network>opt5</network>
+		</destination>
+		<descr><![CDATA[Access to Client Network]]></descr>
+		<updated>
+			<time>1778616931</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+		<created>
+			<time>1778616931</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778616948</tracker>
+		<type>pass</type>
+		<interface>opt3</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt3</network>
+		</source>
+		<destination>
+			<network>opt6</network>
+		</destination>
+		<descr><![CDATA[Access to Security Network]]></descr>
+		<updated>
+			<time>1778616948</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+		<created>
+			<time>1778616948</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778616960</tracker>
+		<type>pass</type>
+		<interface>opt3</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt3</network>
+		</source>
+		<destination>
+			<network>opt7</network>
+		</destination>
+		<descr><![CDATA[Access to Lab Network]]></descr>
+		<updated>
+			<time>1778616960</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+		<created>
+			<time>1778616960</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778616969</tracker>
+		<type>pass</type>
+		<interface>opt3</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt3</network>
+		</source>
+		<destination>
+			<network>opt9</network>
+		</destination>
+		<descr><![CDATA[Access to Guests Network]]></descr>
+		<updated>
+			<time>1778616969</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+		<created>
+			<time>1778616969</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778617021</tracker>
+		<type>block</type>
+		<interface>opt4</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt4</network>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+		<descr><![CDATA[Blocking Access to Any Restricted Networks]]></descr>
+		<updated>
+			<time>1778617021</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+		<created>
+			<time>1778617021</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778617037</tracker>
+		<type>block</type>
+		<interface>opt5</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt5</network>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+		<descr><![CDATA[Blocking Network Connectivity from other Networks]]></descr>
+		<updated>
+			<time>1778617037</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+		<created>
+			<time>1778617037</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778617220</tracker>
+		<type>block</type>
+		<interface>opt6</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt6</network>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+		<descr><![CDATA[Blocking Access to Any Restricted Networks]]></descr>
+		<created>
+			<time>1778616996</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+		<updated>
+			<time>1778617237</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778617082</tracker>
+		<type>pass</type>
+		<interface>opt6</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt6</network>
+		</source>
+		<destination>
+			<network>opt3</network>
+		</destination>
+		<descr><![CDATA[Access to Monitoring Network]]></descr>
+		<updated>
+			<time>1778617082</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+		<created>
+			<time>1778617082</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778617062</tracker>
+		<type>pass</type>
+		<interface>opt6</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt6</network>
+		</source>
+		<destination>
+			<network>opt4</network>
+		</destination>
+		<descr><![CDATA[Access to Storage Network]]></descr>
+		<created>
+			<time>1778616902</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+		<updated>
+			<time>1778617100</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778617063</tracker>
+		<type>pass</type>
+		<interface>opt6</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt6</network>
+		</source>
+		<destination>
+			<network>opt5</network>
+		</destination>
+		<descr><![CDATA[Access to Client Network]]></descr>
+		<created>
+			<time>1778616931</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+		<updated>
+			<time>1778617109</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778617064</tracker>
+		<type>pass</type>
+		<interface>opt6</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt6</network>
+		</source>
+		<destination>
+			<network>opt7</network>
+		</destination>
+		<descr><![CDATA[Access to Lab Network]]></descr>
+		<created>
+			<time>1778616960</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+		<updated>
+			<time>1778617168</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778617065</tracker>
+		<type>pass</type>
+		<interface>opt6</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt6</network>
+		</source>
+		<destination>
+			<network>opt9</network>
+		</destination>
+		<descr><![CDATA[Access to Guests Network]]></descr>
+		<created>
+			<time>1778616969</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+		<updated>
+			<time>1778617174</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778617289</tracker>
+		<type>block</type>
+		<interface>opt7</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt7</network>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+		<descr><![CDATA[Blocking Network Connectivity from other Networks]]></descr>
+		<created>
+			<time>1778617037</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+		<updated>
+			<time>1778617312</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778616834</tracker>
+		<type>pass</type>
+		<interface>opt8</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt8</network>
+		</source>
+		<destination>
+			<network>(self)</network>
+		</destination>
+		<descr><![CDATA[Full Access to Firewall]]></descr>
+		<created>
+			<time>1778616795</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+		<updated>
+			<time>1778616864</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778616835</tracker>
+		<type>pass</type>
+		<interface>opt8</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt8</network>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+		<descr><![CDATA[Full Access to All Sub Networks]]></descr>
+		<created>
+			<time>1778616817</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+		<updated>
+			<time>1778616871</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1778617294</tracker>
+		<type>block</type>
+		<interface>opt9</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statepolicy></statepolicy>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<source>
+			<network>opt9</network>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+		<descr><![CDATA[Blocking Network Connectivity from other Networks]]></descr>
+		<created>
+			<time>1778617037</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</created>
+		<updated>
+			<time>1778617303</time>
+			<username><![CDATA[admin@192.168.254.69 (Local Database)]]></username>
+		</updated>
+	</rule>
+	<separator>
+		<wan></wan>
+		<opt1></opt1>
+		<opt3></opt3>
+		<opt4></opt4>
+		<opt5></opt5>
+		<opt6></opt6>
+	</separator>
+</filter>
