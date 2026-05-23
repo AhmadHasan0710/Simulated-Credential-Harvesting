@@ -11,3 +11,7 @@ The <b>liveconfig.xml</b> file represents the complete, active configuration use
 <p>
 The additional XML files in this directory are not intended for direct deployment. Instead, they are used to organize and break down the main configuration into logical sections such as routing, firewall rules, DNS, and NAT. This separation is meant to improve readability, maintainability, and overall clarity of the network design.
 </p>
+
+<p>
+This Network Configuration & Architecture matches that of [Network Infrastructure Homelab](https://github.com/AhmadHasan0710/Network-Infrastrucutre-Homelab)
+</p>
