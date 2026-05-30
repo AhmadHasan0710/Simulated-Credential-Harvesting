@@ -1,7 +1,7 @@
-<h1>pfSense Configuration Files</h1>
+<h1>PFSense Configuration Files</h1>
 
 <p>
-This folder specifically doesn't contain any internal network defense tools, Just all PFSense Configurations. Rather, it contains all structured configuration files for the pfSense firewall; within this network infrastructure.
+This folder specifically doesn't contain any internal network defense tools, Just all PFSense Configurations. Rather, it contains all structured configuration files for the PFSense firewall; within this network infrastructure.
 </p>
 
 <p>
