@@ -1,0 +1,2 @@
+# Screenshots
+This folder contains screenshots documenting the entire, including both ethical hacking tools, as well as network defense setups. It includes visual proof of configurations, dashboards, and activity from tools such as GoPhish, SET, pfSense, pfBlockerNG-devel, Suricata, Zeek, Pi-hole, Darkstat, and more. These screenshots help demonstrate how the offensive and defensive components are configured, and how they interact within the simulated network. Overall, this folder serves as visual documentation of the complete attack and defense lab setup.

@@ -1,6 +1,6 @@
 # Network Defense Tools
 
-This folder specifically contains all Network Defense Tools utilized within this Lab, in partnership with the already established PFSense Firewall & Router.
+This folder specifically contains all Network Defense Tools & documentation utilized within this Lab, in partnership with the already established PFSense Firewall & Router.
 
 While pfSense handles core network controls such as routing, VLANs, firewall rules, and NAT, the tools in this section are responsible for monitoring, detection, and analysis within the network.
 

@@ -1,7 +1,7 @@
 <h1>Ethical Hacking Tools</h1>
 
 <p>
-This folder contains the tools and configurations used for the offensive side of this lab. These tools are used in a controlled environment to simulate real-world attack scenarios, only for educational and defensive analysis purposes.
+This folder contains the documentation and configurations used for the offensive side of this lab. These tools are used in a controlled environment to simulate real-world attack scenarios, only for educational and defensive analysis purposes.
 </p>
 
 <p>

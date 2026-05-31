@@ -1,5 +1,5 @@
 # Ethical Hacking & Network Defense Configuration
-This section contains all the configuration & setup files utilized within this Lab enviorment. 
+This section contains all the configuration & documentation files taken & utilized within this Lab enviorment. 
 
 That would include but aren't limited too:
 <ul>
