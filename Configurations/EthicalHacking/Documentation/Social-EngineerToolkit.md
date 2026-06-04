@@ -14,7 +14,7 @@ SET can be utilized within any Linux distro, this lab specifically runs Ubuntu a
 
 <h2>Phishing Email Delivered to Victim</h2>
 <p>
-<a href="https://github.com/AhmadHasan0710/Simulated-Credential-Harvesting/blob/main/Screenshots/EthicalHackingScreenshots/EmailReceived.png">View Screenshot</a>
+<img src="https://github.com/AhmadHasan0710/Simulated-Credential-Harvesting/blob/main/Screenshots/EthicalHackingScreenshots/EmailReceived.png" alt="Phishing Email">
 </p>
 
 <p>
@@ -23,7 +23,7 @@ This is the email that in this lab, m3rcy1ok@gmail.com received. In real world c
 
 <h2>Victim Interaction (Clicking the Link)</h2>
 <p>
-<a href="https://github.com/AhmadHasan0710/Simulated-Credential-Harvesting/blob/main/Screenshots/EthicalHackingScreenshots/SETLinkVisited.png">View Screenshot</a>
+<img src="https://github.com/AhmadHasan0710/Simulated-Credential-Harvesting/blob/main/Screenshots/EthicalHackingScreenshots/SETLinkVisited.png" alt="Victim Interacting">
 </p>
 
 <p>
@@ -32,7 +32,7 @@ When the victim clicks the link, the request is sent to the SET hosted server. I
 
 <h2>Credential Harvesting Page</h2>
 <p>
-<a href="https://github.com/AhmadHasan0710/Simulated-Credential-Harvesting/blob/main/Screenshots/EthicalHackingScreenshots/SETFakeWebpage.png">View Screenshot</a>
+<img src="https://github.com/AhmadHasan0710/Simulated-Credential-Harvesting/blob/main/Screenshots/EthicalHackingScreenshots/SETFakeWebpage.png" alt="Credential Harvesting Page">
 </p>
 
 <p>
@@ -50,7 +50,7 @@ After submitting credentials, the victim is redirected to the actual Google page
 
 <h2>Captured Credentials in SET Terminal</h2>
 <p>
-<a href="https://github.com/AhmadHasan0710/Simulated-Credential-Harvesting/blob/main/Screenshots/EthicalHackingScreenshots/SETResults.png">View Screenshot</a>
+<img src="https://github.com/AhmadHasan0710/Simulated-Credential-Harvesting/blob/main/Screenshots/EthicalHackingScreenshots/SETResults.png" alt="Captured Credentials">
 </p>
 
 <p>
