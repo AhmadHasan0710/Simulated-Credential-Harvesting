@@ -6,11 +6,19 @@
 The Social Engineering Toolkit (SET) is used in this lab to create a credential harvesting attack through a cloned website. This demonstrates how attackers can trick users into entering sensitive information into a malicious page that appears legitimate. The captured data is then analyzed from a defensive perspective, as how can a network infrastructure configured properly, can detect and prevent any form of harvesting.
 </p>
 
+<p>
+SET can be utilized within any Linux distro, this lab specifically runs Ubuntu as its OS. The toolkit was launched and navigated through the following sequence:
+</p>
 <ul>
-<li>
-SET can be utilized within any Linux distro, this lab specifically runs Ubuntu as its OS. The toolkit was launched and navigated through the following sequence: Sudo Setoolkit  → Social-Engineering Attacks → Website Attack Vectors → Credential Harvester Attack Method → Web Templates. The computer's IP address (192.168.254.23) was provided as the hosting server, and the Google login template was selected to replicate a familiar and trusted login page. The attack was then executed, hosting the phishing page and waiting for incoming connections.
-</li>
+<li> Sudo Setoolkit  → 
+<li> Social-Engineering Attacks → 
+<li> Website Attack Vectors → 
+<li> Credential Harvester Attack Method → 
+<li> Web Templates. 
 </ul>
+<p>
+The computer's IP address (192.168.254.23) was provided as the hosting server, and the Google login template was selected to replicate a familiar and trusted login page. The attack was then executed, hosting the phishing page and waiting for incoming connections.
+</p>
 
 <h2>Phishing Email Delivered to Victim</h2>
 <p>
