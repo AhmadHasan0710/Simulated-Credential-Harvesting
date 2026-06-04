@@ -49,7 +49,7 @@ The victim is presented with a cloned Google login page. In a real world scenari
 
 <h2>Post-Login Redirection</h2>
 <p>
-<a href="https://github.com/AhmadHasan0710/Simulated-Credential-Harvesting/blob/main/Screenshots/EthicalHackingScreenshots/SETRedirect.png">View Screenshot</a>
+<img src="https://github.com/AhmadHasan0710/Simulated-Credential-Harvesting/blob/main/Screenshots/EthicalHackingScreenshots/SETRedirect.png" alt="Post Login Redirection">
 </p>
 
 <p>
