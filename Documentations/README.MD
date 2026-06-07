@@ -14,7 +14,6 @@ The documents below are organized in logical order to reflect the progression of
 <ol>
 <li><a href="./AttackMethodology.md">Attack Methodology</a></li>
 <li><a href="./NetworkDefenseArchitecture.md">Network Defense Architecture</a></li>
-<li><a href="./LabObservations.md">Lab Observations</a></li>
 <li><a href="./Results.md">Results</a></li>
 <li><a href="./Improvements.md">Improvements</a></li>
 <li><a href="./Troubleshooting.md">Troubleshooting</a></li>
